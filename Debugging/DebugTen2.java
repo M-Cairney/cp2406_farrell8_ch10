@@ -4,8 +4,8 @@ public class DebugTen2
 {
    public static void main(String args[]) 
    {
-      DebugVacation = new DebugVacation();
-      DebugExtendedVacation =
+      DebugVacation yourVacation = new DebugVacation();
+      DebugExtendedVacation myVacation =
          new DebugExtendedVacation();
       System.out.println("My vacation is for " +
          myVacation.getDays() + " days");

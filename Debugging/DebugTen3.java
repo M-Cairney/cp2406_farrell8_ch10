@@ -12,6 +12,7 @@ public class DebugTen3
          "Enter number of pages in " + area + "'s phone book");
       pages = Integer.parseInt(inStr);
       DebugPhoneBook pb = new DebugPhoneBook();
+      pb.FixDebugPhoneBook(pages, area);
       pb.display();
    }
 }
