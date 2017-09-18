@@ -4,6 +4,7 @@ public class DebugPhoneBook extends DebugBook
    private String area;
    private String size;
    private final int CUTOFF = 30;
+
    public void FixDebugPhoneBook(int pages, String city)
    {
       super.pages = pages;
